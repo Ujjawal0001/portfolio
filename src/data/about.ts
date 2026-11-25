@@ -141,8 +141,8 @@ export const aboutData: AboutData = {
     },
     bioParagraphs: [
       "I am a Computer Science undergraduate at Lovely Professional University with a steadfast focus on architecting modern web platforms, distributed systems, and responsive user interfaces. My core technical foundation centers on the full-stack MERN ecosystem (MongoDB, Express, React, Node.js), Next.js, TypeScript, and mobile engineering with Flutter.",
-      "I thrive on solving intricate algorithmic problems and converting conceptual workflows into robust, production-grade applications. From orchestrating high-performance REST APIs and modeling relational and document schemas (PostgreSQL, MongoDB) to engineering interactive Canvas visualizers and reactive state management, I balance rigorous logic with intuitive design.",
-      "With 100+ DSA problems solved across LeetCode and GeeksforGeeks, alongside 5-Star Java and 3-Star Python credentials on HackerRank, I am actively seeking software development internships and entry-level engineering roles. I am eager to collaborate with forward-thinking teams to ship performant, high-impact software.",
+      "I thrive on solving intricate algorithmic problems and converting conceptual workflows into robust, production-grade applications. From orchestrating high-performance REST APIs and modeling relational and document schemas (PostgreSQL, MongoDB) to engineering real-time computer vision pipelines and accessible UI systems, I balance rigorous logic with intuitive design.",
+      "With 100+ DSA problems solved across LeetCode and GeeksforGeeks, Pre-finalist recognition at Smart India Hackathon (SIH) 2025, alongside 5-Star Java and 3-Star Python credentials on HackerRank, I am actively seeking software development internships and entry-level engineering roles. I am eager to collaborate with forward-thinking teams to ship performant, high-impact software.",
     ],
   },
   stats: [
@@ -270,28 +270,33 @@ export const aboutData: AboutData = {
   experiences: [
     {
       id: "auralis",
-      title: "Auralis – Classroom Without Barriers",
+      title: "AURALIS – AI-Powered Multimodal Accessible Classroom Platform",
       type: "Project",
-      role: "Full-Stack & Computer Vision Developer",
+      role: "Lead Full-Stack & AI Developer",
       location: "Academic / Remote",
       period: "Nov 2026",
       summary:
-        "A real-time web accessibility platform for Deaf and Hard-of-Hearing (DHH) students, converting teacher speech into synchronized captions and Indian Sign Language gestures into text using browser-based computer vision.",
+        "An AI-powered multimodal web accessibility platform for Deaf and Hard-of-Hearing (DHH) students, converting teacher speech into real-time synchronized captions and Indian Sign Language gestures into text using browser-based computer vision.",
       bullets: [
         {
-          lead: "Real-Time Speech-to-Text Perception",
+          lead: "Real-Time Accessible Classroom",
           description:
-            "Implemented continuous Web Speech API streaming with interim-to-final speech stabilization and multi-accent support (Indian, US, UK English & Hindi) with dynamic audio level metering.",
+            "Created a real-time accessible classroom with speech-to-text and ISL support, improving accessibility by 60%.",
         },
         {
-          lead: "Computer Vision Gesture Recognition",
+          lead: "In-Browser Vision Pipeline",
           description:
-            "Engineered client-side MediaPipe Hand Landmarker (extracting 21 3D skeletal landmarks at 30 FPS) with kinematic classification and 10-frame consensus temporal debouncing for 8 core sign gestures.",
+            "Engineered an in-browser vision pipeline recognizing 8 gestures from 21 hand landmarks with 90% accuracy.",
         },
         {
-          lead: "Low-Latency Synchronization & Accessibility",
+          lead: "Low-Latency Caption Streaming",
           description:
-            "Architected bi-directional Socket.IO room telemetry, WCAG 2.2 AAA OLED high-contrast modes, dynamic font scaling (20px–34px), and deep transcript exports (PDF, JSON, TXT).",
+            "Broadcast real-time captions using Web Speech API and Socket.io, reducing caption latency by 40%.",
+        },
+        {
+          lead: "Automated Lecture Intelligence",
+          description:
+            "Automated lecture summarization, flashcards, and semantic search, cutting post-lecture revision time by 50%.",
         },
       ],
       techSlugs: [
@@ -472,18 +477,22 @@ export const aboutData: AboutData = {
         { name: "Java", slug: "openjdk" },
         { name: "C++", slug: "cplusplus" },
         { name: "C", slug: "c" },
+        { name: "Dart", slug: "dart" },
       ],
     },
     {
-      id: "devops",
-      title: "DevOps & Cloud",
-      description: "Database architecture, cloud hosting, and version management.",
+      id: "tools-platforms",
+      title: "Tools & Platforms",
+      description: "Databases, ORM, communication protocols, and cloud platforms.",
       items: [
-        { name: "MongoDB", slug: "mongodb" },
+        { name: "Node.js", slug: "nodedotjs" },
         { name: "PostgreSQL", slug: "postgresql" },
+        { name: "REST APIs", slug: "postman" },
+        { name: "MongoDB", slug: "mongodb" },
+        { name: "Socket.io", slug: "socketdotio", white: true },
+        { name: "Prisma ORM", slug: "prisma", white: true },
         { name: "Git", slug: "git" },
         { name: "GitHub", slug: "github", white: true },
-        { name: "Vercel", slug: "vercel", white: true },
       ],
     },
     {
@@ -502,12 +511,12 @@ export const aboutData: AboutData = {
   certificates: [
     {
       title: "Database Management System Part – 2",
-      issuer: "Infosys Springboard",
+      issuer: "Infosys",
       date: "Jul 2026",
     },
     {
       title: "Programming using C++",
-      issuer: "Infosys Springboard",
+      issuer: "Infosys",
       date: "Aug 2025",
     },
     {
@@ -518,18 +527,28 @@ export const aboutData: AboutData = {
   ],
   achievements: [
     {
-      title: "100+ Coding Problems Solved",
-      platform: "LeetCode & GeeksforGeeks",
-      period: "Aug 2025 – Present",
+      title: "Pre-finalist at Smart India Hackathon (SIH) 2025",
+      platform: "Smart India Hackathon (SIH)",
+      period: "Sep 2025",
+      badge: "Pre-Finalist",
       description:
-        "Consistent daily practice focusing on Data Structures, Dynamic Programming, Graph Algorithms, and Trees.",
+        "Selected as Pre-finalist at Smart India Hackathon (SIH) 2025 for engineering high-impact, innovative software solutions.",
     },
     {
       title: "5-Star Java & 3-Star Python",
       platform: "HackerRank",
-      period: "Sep 2025 – Present",
+      period: "Sep 2025",
+      badge: "5-Star / 3-Star",
       description:
-        "Earned verified badges demonstrating strong object-oriented programming foundations, memory management, and clean syntax.",
+        "Earned 5-Star Badge in Java and 3-Star Badge in Python on HackerRank, demonstrating programming proficiency and problem-solving skills.",
+    },
+    {
+      title: "100+ Coding Problems Solved",
+      platform: "LeetCode & GeeksforGeeks",
+      period: "Aug 2025",
+      badge: "100+ Solved",
+      description:
+        "Solved 100+ DSA and coding challenges across LeetCode and GeeksforGeeks, mastering data structures, algorithms, and optimization.",
     },
   ],
   github: {
@@ -539,7 +558,7 @@ export const aboutData: AboutData = {
     fallbackStats: {
       totalRepos: 12,
       solvedChallenges: 100,
-      badges: ["5-Star Java", "3-Star Python", "Infosys DBMS Part 2", "Infosys C++"],
+      badges: ["SIH 2025 Pre-Finalist", "5-Star Java", "3-Star Python", "Infosys DBMS Part 2", "Infosys C++"],
     },
   },
 };
