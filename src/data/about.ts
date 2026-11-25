@@ -142,7 +142,7 @@ export const aboutData: AboutData = {
     bioParagraphs: [
       "I am a Computer Science undergraduate at Lovely Professional University with a steadfast focus on architecting modern web platforms, distributed systems, and responsive user interfaces. My core technical foundation centers on the full-stack MERN ecosystem (MongoDB, Express, React, Node.js), Next.js, TypeScript, and mobile engineering with Flutter.",
       "I thrive on solving intricate algorithmic problems and converting conceptual workflows into robust, production-grade applications. From orchestrating high-performance REST APIs and modeling relational and document schemas (PostgreSQL, MongoDB) to engineering real-time computer vision pipelines and accessible UI systems, I balance rigorous logic with intuitive design.",
-      "With 100+ DSA problems solved across LeetCode and GeeksforGeeks, Pre-finalist recognition at Smart India Hackathon (SIH) 2025, alongside 5-Star Java and 3-Star Python credentials on HackerRank, I am actively seeking software development internships and entry-level engineering roles. I am eager to collaborate with forward-thinking teams to ship performant, high-impact software.",
+      "With 150+ DSA problems solved across LeetCode and GeeksforGeeks, Pre-finalist recognition at Smart India Hackathon (SIH) 2025, alongside 5-Star Java and 3-Star Python credentials on HackerRank, I am actively seeking software development internships and entry-level engineering roles. I am eager to collaborate with forward-thinking teams to ship performant, high-impact software.",
     ],
   },
   stats: [
@@ -162,14 +162,14 @@ export const aboutData: AboutData = {
     },
     {
       id: "cgpa",
-      value: 8.52,
+      value: 8.58,
       decimals: 2,
       label: "Academic CGPA",
       sublabel: "B.Tech CSE at LPU",
     },
     {
       id: "dsa",
-      value: 100,
+      value: 150,
       suffix: "+",
       label: "DSA Problems Solved",
       sublabel: "LeetCode & GeeksforGeeks",
@@ -182,7 +182,7 @@ export const aboutData: AboutData = {
       degree: "Bachelor of Technology - Computer Science and Engineering",
       period: "Aug 2024 – Present",
       location: "Phagwara, Punjab",
-      grade: "CGPA: 8.52",
+      grade: "CGPA: 8.58",
       description:
         "Pursuing core computer science curriculum emphasizing Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Distributed Computing.",
       accentIcon: "graduation",
@@ -251,7 +251,7 @@ export const aboutData: AboutData = {
     {
       id: "problem-solving",
       title: "Problem Solving",
-      shortDesc: "Applying algorithmic logic with 100+ solved DSA challenges in C++, Java, and Python.",
+      shortDesc: "Applying algorithmic logic with 150+ solved DSA challenges in C++, Java, and Python.",
       iconSlug: "leetcode",
     },
     {
@@ -544,12 +544,12 @@ export const aboutData: AboutData = {
         "Earned 5-Star Badge in Java and 3-Star Badge in Python on HackerRank, demonstrating programming proficiency and problem-solving skills.",
     },
     {
-      title: "100+ Coding Problems Solved",
+      title: "150+ Coding Problems Solved",
       platform: "LeetCode & GeeksforGeeks",
       period: "Aug 2025",
-      badge: "100+ Solved",
+      badge: "150+ Solved",
       description:
-        "Solved 100+ DSA and coding challenges across LeetCode and GeeksforGeeks, mastering data structures, algorithms, and optimization.",
+        "Solved 150+ DSA and coding challenges across LeetCode and GeeksforGeeks, mastering data structures, algorithms, and optimization.",
     },
   ],
   github: {
@@ -558,7 +558,7 @@ export const aboutData: AboutData = {
     snakeSvg: "https://raw.githubusercontent.com/Ujjawal0001/Ujjawal0001/output/github-snake-dark.svg",
     fallbackStats: {
       totalRepos: 12,
-      solvedChallenges: 100,
+      solvedChallenges: 150,
       badges: ["SIH 2025 Pre-Finalist", "5-Star Java", "3-Star Python", "Infosys DBMS Part 2", "Infosys C++"],
     },
   },
