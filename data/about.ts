@@ -380,6 +380,7 @@ export const aboutData: AboutData = {
         { slug: "tailwindcss", name: "TailwindCSS" },
       ],
       githubUrl: "https://github.com/Ujjawal0001",
+      liveUrl: "https://farmer-crop-advisory-system-frontend.onrender.com",
     },
     {
       id: "deadlockx",
