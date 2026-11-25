@@ -94,8 +94,10 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {experiences.slice(0, 3).map((exp) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {experiences
+              .filter((exp) => exp.type === "Project")
+              .map((exp) => (
               <div
                 key={exp.id}
                 className="group relative flex flex-col justify-between p-6 rounded-2xl bg-[#121212]/90 border border-white/[0.08] hover:border-emerald-500/30 transition-all duration-300 hover:shadow-[0_10px_25px_-10px_rgba(16,185,129,0.15)] hover:-translate-y-1"

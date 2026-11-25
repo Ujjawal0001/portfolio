@@ -148,10 +148,10 @@ export const aboutData: AboutData = {
   stats: [
     {
       id: "projects",
-      value: 3,
+      value: 4,
       suffix: "+",
       label: "Projects Built",
-      sublabel: "Full-stack apps & visualizers",
+      sublabel: "Full-stack apps & AI platforms",
     },
     {
       id: "technologies",
@@ -268,6 +268,44 @@ export const aboutData: AboutData = {
     },
   ],
   experiences: [
+    {
+      id: "auralis",
+      title: "Auralis – Classroom Without Barriers",
+      type: "Project",
+      role: "Full-Stack & Computer Vision Developer",
+      location: "Academic / Remote",
+      period: "Nov 2026",
+      summary:
+        "A real-time web accessibility platform for Deaf and Hard-of-Hearing (DHH) students, converting teacher speech into synchronized captions and Indian Sign Language gestures into text using browser-based computer vision.",
+      bullets: [
+        {
+          lead: "Real-Time Speech-to-Text Perception",
+          description:
+            "Implemented continuous Web Speech API streaming with interim-to-final speech stabilization and multi-accent support (Indian, US, UK English & Hindi) with dynamic audio level metering.",
+        },
+        {
+          lead: "Computer Vision Gesture Recognition",
+          description:
+            "Engineered client-side MediaPipe Hand Landmarker (extracting 21 3D skeletal landmarks at 30 FPS) with kinematic classification and 10-frame consensus temporal debouncing for 8 core sign gestures.",
+        },
+        {
+          lead: "Low-Latency Synchronization & Accessibility",
+          description:
+            "Architected bi-directional Socket.IO room telemetry, WCAG 2.2 AAA OLED high-contrast modes, dynamic font scaling (20px–34px), and deep transcript exports (PDF, JSON, TXT).",
+        },
+      ],
+      techSlugs: [
+        { slug: "nextdotjs", name: "Next.js", white: true },
+        { slug: "react", name: "React.js" },
+        { slug: "nodedotjs", name: "Node.js" },
+        { slug: "socketdotio", name: "Socket.IO", white: true },
+        { slug: "postgresql", name: "PostgreSQL" },
+        { slug: "prisma", name: "Prisma", white: true },
+        { slug: "tailwindcss", name: "TailwindCSS" },
+      ],
+      githubUrl: "https://github.com/Ujjawal0001/Sign-Language-Speech-Assistant-",
+      liveUrl: "https://auralis-web.onrender.com",
+    },
     {
       id: "exampro",
       title: "ExamPro – Exam Preparation App",

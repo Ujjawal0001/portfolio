@@ -36,6 +36,7 @@ export default function Footer() {
     {
       title: "Specifics",
       links: [
+        { label: "Auralis AI Platform", href: "/about#experience" },
         { label: "ExamPro App", href: "/about#experience" },
         { label: "AgriGuide Advisory", href: "/about#experience" },
         { label: "DeadlockX System", href: "/about#experience" },
