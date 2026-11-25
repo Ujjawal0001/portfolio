@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { aboutData } from "@/data/about";
 import StatCounter from "@/components/StatCounter";
 
@@ -127,13 +127,28 @@ export default function Home() {
                     ))}
                   </div>
 
-                  <Link
-                    href="/about#experience"
-                    className="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-emerald-400 transition-colors"
-                    aria-label={`View ${exp.title}`}
-                  >
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
+                  <div className="flex items-center gap-1.5">
+                    {exp.liveUrl && (
+                      <a
+                        href={exp.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-emerald-400 transition-colors"
+                        aria-label={`Open live demo of ${exp.title}`}
+                        title="Live Demo"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
+                    )}
+                    <Link
+                      href="/about#experience"
+                      className="p-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-400 hover:text-emerald-400 transition-colors"
+                      aria-label={`View details of ${exp.title}`}
+                      title="View Details"
+                    >
+                      <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}

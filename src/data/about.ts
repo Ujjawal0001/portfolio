@@ -304,7 +304,7 @@ export const aboutData: AboutData = {
         { slug: "tailwindcss", name: "TailwindCSS" },
       ],
       githubUrl: "https://github.com/Ujjawal0001/Sign-Language-Speech-Assistant-",
-      liveUrl: "https://auralis-web.onrender.com",
+      liveUrl: "https://sign-language-speech-assistant.onrender.com/",
     },
     {
       id: "exampro",
